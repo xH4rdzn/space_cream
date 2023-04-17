@@ -38,19 +38,22 @@ header {
 }
 
 header img {
-  margin: 3.2rem auto 4rem;
+  width: 13.7rem;
+  height: 13.7rem;
+  margin: 3.2rem auto 0;
 }
 
 header h1 {
   font-family: var(--ff-heading);
   font-size: 4rem;
+  font-weight: 400;
   line-height: 3.4rem;
   padding: .8rem 0;
   background-color: var(--h1-bg-color);
   color: var(--fc-white);
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  margin-top: -3rem;
   letter-spacing: 0.05em;
+  margin: 3.2rem 0 2.9rem ;
 }
 
 main {
@@ -61,9 +64,9 @@ main {
 
 main p {
   max-width: 30.5rem;
-  margin: 1.4rem 0 6.3rem;
+  margin: 1.4rem 0 2.7rem;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5rem;
   text-align: center;
   color: var(--fc-text);
@@ -78,15 +81,19 @@ main p {
   position: absolute;
   right: 1.6rem;
   top: 1.6rem;
+  width: 11.2rem;
+  height: 3.5rem;
   font-family: var(--ff-heading);
   font-size: 2rem;
+  font-weight: 400;
   line-height: 3.4rem;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   color: var(--h2-color);
   background-color: var(--btn-color);
   border-radius: 2rem;
-  padding: 1px 2.5rem;
-  animation: topdown 800ms ease forwards;
+  text-align: center;
+  padding: .1rem 2.5rem;
+  animation: topdown 200ms ease-in;
 }
 
 .card img {
@@ -101,7 +108,7 @@ main p {
  @keyframes topdown {
   0% {
     opacity: 0;
-    margin-top: -1.5rem;
+    margin-top: -1rem;
   }
 
   100% {
@@ -112,11 +119,11 @@ main p {
  @keyframes downtop {
   0% {
     opacity: 0;
-    margin-top: 2rem;
+    margin-left: -5rem;
   }
 
   100% {
     opacity: 1;
-    margin-top: 0;
+    margin-left: 0;
   }
  }
